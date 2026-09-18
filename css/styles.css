@@ -4,3 +4,42 @@
 *::after {
   box-sizing: border-box;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.inner-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  gap: 24px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+header {
+  padding: 24px 0;
+  background-color: #ff934f;
+  color: #fff;
+}
+
+main {
+  padding: 44px 0;
+  background-color: #bfcbc2;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 488px;
+  padding: 16px;
+  background-color: #fff;
+}
